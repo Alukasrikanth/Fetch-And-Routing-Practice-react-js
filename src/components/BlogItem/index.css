@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.list-item-container {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 15px;
+}
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 95%;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.image {
+  width: 100%;
+  border: 1px solid transparent;
+  height: 20%;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
+.item-info-container {
+  width: 100%;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.item-topic {
+  color: #8e8e8e;
+  font-weight: 14px;
+}
+.item-title {
+  font-size: 18px;
+}
+.avatar-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.avatar-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.author {
+  color: #8e8e8e;
+  font-size: 14pxs;
+  margin-left: 10px;
+}
